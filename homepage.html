@@ -1,0 +1,32 @@
+<html>
+
+<head>
+  <title>{{page_title}}</title>
+  <link rel="stylesheet" type="text/css" href="/assets/home.css">
+  <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Montserrat' >
+  <link href='//fonts.googleapis.com/css?family=Anonymous Pro' rel='stylesheet'>
+</head>
+
+<body>
+  <div id="grad1" style="text-align:center;margin:auto;color:#f3f3f3;font-size:30px;font-weight:550;padding-top:105px;">
+  <h1>wishing well</h1>
+
+  <h2>recent anonymous Twitter tweets yearning for something</h2>
+
+  <div class="center">
+  <form action="response" method="post">
+    <input type="submit" id="wish" value="wishes" name="wishbtn"/> 
+    <input type="submit" id="hope" value="hopes" name="hopebtn"/> 
+    <input type="submit" id="dream" value="dreams" name="dreambtn"/> 
+  </form>
+  </div>
+
+  {% if prompt %}
+	 <div class= 'formtitle'>{{prompt}}</div>
+  {% endif %}
+  </div>
+
+<h3>the wishing well is built upon the <a href=https://dev.twitter.com/docs>Twitter API</a> and <a href=https://cloud.google.com/appengine/>Google App Engine</a>. created in december 2016 by <a href=http://jojole.me/>josephine le</a></a>.
+  
+</body>
+</html>

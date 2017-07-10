@@ -1,0 +1,62 @@
+body {
+  background: #111;
+  font-family: 'Montserrat';
+}
+h1 {
+  padding-top: 2cm;
+  text-align: center;
+  font-size: 63px;
+  color: #fff;
+  margin-left: 14px;
+}
+h2 {
+  padding-top: -50cm;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+}
+h3 {
+  padding-top: -15cm;
+  padding-bottom: -15cm;
+  text-align: center;
+  font-size: 10px;
+  color: #286582;
+}
+h4 {
+  font-family: 'Anonymous Pro';
+  padding-top: 0.3cm;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+/* gradient background */
+#grad1 {
+    height: 325px;
+    width:100%;
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    color:white;
+    opacity:0.95;
+}
+/* submit button size */
+input[type=submit] {
+    width: 10em;  height: 2em;
+}
+p.small {
+    line-height: 50%;
+}
+/* unvisited link */
+a:link {
+    color: white;
+}
+/* visited link */
+a:visited {
+    color: white;
+}
+/* mouse over link */
+a:hover {
+    color: blue;
+}
+/* selected link */
+a:active {
+    color: blue;
+}

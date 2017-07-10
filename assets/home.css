@@ -1,0 +1,54 @@
+body {
+  background: #111;
+  font-family: 'Montserrat';
+}
+h1 {
+  padding-top: 1cm;
+  text-align: center;
+  font-size: 63px;
+  color: #fff;
+  margin-left: 14px;
+}
+h2 {
+  padding-top: 0.5cm;
+  text-align: center;
+  font-size: 24px;
+  color: #fff
+}
+h3 {
+  font-family: 'Anonymous Pro';
+  padding-top: 10cm;
+  text-align: center;
+  font-size: 13px;
+  color: #286582;
+}
+.center {
+    text-align: center;
+}
+/* gradient background */
+#grad1 {
+    height: 200px;
+    width:100%;
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    color:white;
+}
+/* submit button size */
+input[type=submit] {
+    width: 10em;  height: 2em;
+}
+/* unvisited link */
+a:link {
+    color: #286582;
+}
+/* visited link */
+a:visited {
+    color: #286582;
+}
+/* mouse over link */
+a:hover {
+    color: blue;
+}
+/* selected link */
+a:active {
+    color: blue;
+}

@@ -1,0 +1,35 @@
+<html>
+
+<head>
+  <title>{{page_title}}</title>
+  <link rel="stylesheet" type="text/css" href="/assets/resp.css">
+  <link href='//fonts.googleapis.com/css?family=Anonymous Pro' rel='stylesheet'>
+</head>
+
+<body>
+  <div id="grad1" style="text-align:center;margin:auto;color:#f3f3f3;font-size:30px;font-weight:550;padding-bottom:-15px;">
+
+  <p class="small">
+    <h1>{{header}}</h1>
+    <h2>from the <a href="http://wishtweeter.appspot.com/">wishing well</a></h2>
+  </p>
+
+  <h3>keep wishing, hoping, dreaming...<h3>
+
+  <div class="center">
+    <form action="response" method="post">
+        <input type="submit" id="wish" value="wishes" name="wishbtn"/> 
+        <input type="submit" id="hope" value="hopes" name="hopebtn"/> 
+        <input type="submit" id="dream" value="dreams" name="dreambtn"/> 
+    </form>
+  </div>
+  </div>
+
+{% for tweet in results %}
+	<div class ='response'>
+		<h4>{{tweet | safe}}</h4>
+	</div>
+{% endfor %}
+
+</body>
+</html>
